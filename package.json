@@ -1,0 +1,19 @@
+{
+  "name": "electronpackagingdemo",
+  "version": "1.0.0",
+  "description": "demonstrate electron packaging using electron-packager",
+  "main": "main.js",
+  "scripts": {
+    "start" : "electron . " 
+  },
+  "repository": {
+    "type": "git",
+    "url": "ElectronPackaging"
+  },
+  "author": "Pallavi Gupta",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^1.6.2",
+    "electron-packager": "^8.6.0"
+  }
+}
